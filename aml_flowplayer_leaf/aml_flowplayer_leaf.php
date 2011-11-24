@@ -81,7 +81,7 @@ function register_flowplayer_leaf(){
 			'options_callback' => 'flowplayer_leaf_options',
 			// 'options_width' => 350,
 			// 'icon' => WP_PLUGIN_URL.'/'.str_replace(basename(__FILE__), '', plugin_basename(__FILE__)).'icon.png',
-			// 'show_hooks' => true,
+			'show_hooks' => true,
 			'content_callback' => 'flowplayer_leaf_content'
 		);
 	
